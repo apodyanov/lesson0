@@ -1,13 +1,9 @@
-parametr = 'Name:'
 name = 'Андрей'
-print (parametr, name)
-parametr1 = 'Age:'
+print ('Name:', name)
 age = 42
-print ((parametr1), (str(age)))
-parametr2 = 'New Age:'
+print ('Age:', age)
 a = 15
 new_age = age+a
-print ((parametr2), (str(new_age)))
-parametr3 = 'Is student:'
+print ('New Age:', new_age)
 is_student = True
-print ((parametr3), (str(is_student)))
+print ('Is student:', is_student)
