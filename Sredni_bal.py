@@ -7,9 +7,7 @@ c = grades[2]
 d = grades[3]
 i = grades[4]
 grades = [(sum(a) / len(a)), (sum(b) / len(b)), (sum(c) / len(c)), (sum(d) / len(d)), (sum(i) / len(i))]
-
-#students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaro'}
-
+students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaro'}
 students = sorted({'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaro'})
 students = tuple(students) # цель данного действия закрепить отсортированные данные
                            # во избежание изменения их порядкового расположения...,
