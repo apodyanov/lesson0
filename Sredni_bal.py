@@ -1,12 +1,12 @@
 # Задание "Средний балл"
 
-#grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
-
-grades = [(sum([5, 3, 3, 5, 4]) / len([5, 3, 3, 5, 4])),
-          (sum([2, 2, 2, 3]) / len([2, 2, 2, 3])),
-          (sum([4, 5, 5, 2]) / len([4, 5, 5, 2])),
-          (sum([4, 4, 3]) / len([4, 4, 3])),
-          (sum([5, 5, 5, 4, 5]) / len([5, 5, 5, 4, 5]))]
+grades = [[5, 3, 3, 5, 4], [2, 2, 2, 3], [4, 5, 5, 2], [4, 4, 3], [5, 5, 5, 4, 5]]
+a = grades[0]
+b = grades[1]
+c = grades[2]
+d = grades[3]
+i = grades[4]
+grades = [(sum(a) / len(a)), (sum(b) / len(b)), (sum(c) / len(c)), (sum(d) / len(d)), (sum(i) / len(i))]
 
 #students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaro'}
 
